@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <p><a href="{% url 'PageForPosts' %}">Go Back To Posts</a></p>
     <script src="{% static 'polls/ValidationJS.js' %}"></script>
     <script src="{% static 'polls/LikeAjax.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'polls/ValidationCSS.css' %}" />
@@ -15,7 +16,7 @@ Password: <input id="password" name="student_password" type="password" size="20"
 Age: <input id="number" name="student_age" type="number" size="20" min="17" max="120"/><br/>
 Surname: <input id="surname" name="student_surname" type="text" size="20"/><br/>
 Name: <input id="name" name="student_name" type="text" size="20"/><br/>
-<input name="button" type="submit" value="Проверить" onClick="FF()"/>
+<input name="button" type="submit" value="Проверить" onClick="ValidMail(); ValidName()"/>
 </body>
 <body>
 <form id="MyForm" action="{% url 'Bot' %}" method="post">
@@ -28,5 +29,4 @@ Name: <input id="name" name="student_name" type="text" size="20"/><br/>
   </div>
 </form>
 </body>
-<p><a href="{% url 'End' %}">End</a></p>
 </html>

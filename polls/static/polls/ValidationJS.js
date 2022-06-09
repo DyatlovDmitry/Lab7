@@ -12,7 +12,7 @@ function ValidName(){
     var regex=/[A-Z][A-Za-z]+/;
     var valid = regex.test(name);
     if (valid) output = 'Верный формат имени!';
-    else output = 'Неверный формат имени!';
+    else output = 'Неверный формат имени! (Имя должно начинаться с заглавной буквы)';
     document.getElementById('message').innerHTML = document.getElementById('message').innerHTML+'<br />'+output;
     return valid;
 }
