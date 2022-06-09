@@ -1,0 +1,22 @@
+@font-face {
+    font-family: MyFont;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../../templates/polls/fonts/MyFont.ttf");
+}
+
+header{
+    background: #D8E3AB;
+    color: #e06647;
+    border: double black 5px;
+    font-family: "Sansita Swashed", "Arial", sans-serif;
+    margin: 0;
+    padding: 5%;
+}
+
+p[class$="Text"],
+.Menu{
+    font-family: "MyFont", "Times New Roman", sans-serif;
+    color: #d337ff;
+}
+

@@ -1,0 +1,29 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <p><h3>{% trans "Как уже неоднократно упомянуто, интерактивные прототипы будут призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что выбранный нами инновационный путь однозначно определяет каждого участника как способного принимать собственные решения касаемо благоприятных перспектив. Не следует, однако, забывать, что базовый вектор развития создаёт предпосылки для прогресса профессионального сообщества." %}</h3></p>
+    <title>Title</title>
+
+    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+    <input name="next" type="hidden" value="{{ redirect_to }}">
+    <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+            </option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Go">
+</form>
+
+
+</head>
+<body>
+
+</body>
+</html>

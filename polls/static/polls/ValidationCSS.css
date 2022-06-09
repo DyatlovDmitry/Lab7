@@ -1,0 +1,7 @@
+input:required:valid {
+    background: #74e874;
+}
+
+input:invalid {
+    background: #f35d50;
+}

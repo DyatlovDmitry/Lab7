@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 06:19+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Lab_5\settings.py:109
+msgid "Russian"
+msgstr ""
+
+#: .\Lab_5\settings.py:110
+msgid "English"
+msgstr ""
+
+#: .\templates\polls\Localization.html:6
+msgid "Как уже неоднократно упомянуто, интерактивные прототипы будут призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что выбранный нами инновационный путь однозначно определяет каждого участника как способного принимать собственные решения касаемо благоприятных перспектив. Не следует, однако, забывать, что базовый вектор развития создаёт предпосылки для прогресса профессионального сообщества."
+msgstr "As has been repeatedly mentioned, interactive prototypes will be called to account. In their desire to improve the quality of life, they forget that the innovative path we have chosen uniquely defines each participant as being able to make their own decisions regarding favorable prospects. However, we should not forget that the basic vector of development creates prerequisites for the progress of the professional community."
